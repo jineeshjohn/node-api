@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vercel dev",
+    "dev": "vercel start",
     "build": "tsc",
-    "start": "tsx api/index.ts"
+    "start": "tsx ./index.ts"
   },
   "dependencies": {
     "express": "^4.19.2",
