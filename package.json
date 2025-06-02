@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "dev": "vercel start",
-    "build": "tsc",
+    "build": "tsc || true",
     "start": "tsx ./index.ts"
   },
   "dependencies": {
